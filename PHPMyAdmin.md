@@ -1,7 +1,7 @@
 ### Docker
-```
+```bash
 sudo -E docker run --name myadmin -d \
--e PMA_HOST=localhost \
+-e PMA_HOST=127.0.01 \
 -e PMA_PORT=3306 \
 -e PMA_USER=user \
 -e PMA_PASSWORD=pass \
